@@ -1,0 +1,399 @@
+/* ---------------- GLOBAL RESET ---------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #007bff;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+  min-height: 100vh;
+  padding: 8rem 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #f9fbfd, #e3f2fd);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #222;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 1.6rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.primary {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn.primary:hover {
+  background: #0056b3;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid #bbb;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background: #f1f1f1;
+}
+/* Profile Image */
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 4px solid #fff;
+}
+
+/* Summary */
+.summary {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 1rem auto 2rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+
+/* ---------------- SECTIONS ---------------- */
+.section {
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #222;
+}
+
+/* Skills Grid */
+.skills .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.skill-card .icon {
+  font-size: 2.2rem;
+}
+
+
+/* Projects Grid */
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.projects .card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.projects .card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.projects .card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projects .card a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- FREELANCE ---------------- */
+.freelance p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+  background: #111;
+  color: #aaa;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+/* Footer */
+.footer {
+  background: #111;
+  color: #aaa;
+  padding: 1.8rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin-bottom: 0.8rem;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.footer-socials a {
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #007bff;
+}
+
+/* Navbar Base */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* Desktop Nav */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #007bff;
+}
+
+/* Mobile Button */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Side Menu (Mobile) */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -260px; /* hidden by default */
+  width: 260px;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -2px 0 8px rgba(0,0,0,0.15);
+  transition: right 0.3s ease;
+  padding-top: 5rem;
+  z-index: 2000;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 2rem;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.side-menu a:hover,
+.side-menu a.active {
+  color: #007bff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hide desktop nav */
+  }
+
+  .menu-btn {
+    display: block; /* show hamburger */
+    color: #333;
+  }
+}
+
