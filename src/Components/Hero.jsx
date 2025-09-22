@@ -52,7 +52,7 @@ export default function Hero() {
           <Github size={28} />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/mohammed-zabi-khan-b21ab7228"
           target="_blank"
           rel="noopener noreferrer"
         >

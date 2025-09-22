@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-
 export default function Navbar() {
   const [active, setActive] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
