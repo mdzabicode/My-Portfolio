@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Download, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, Eye } from "lucide-react";
 import React from "react";
 
 export default function Hero() {
@@ -21,38 +21,37 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hi, I'm Zabi 👋
+        Hello, I'm Zabi 
       </motion.h2>
 
       {/* Brief Summary */}
       <p className="summary">
-        A passionate <strong>Full-Stack Developer</strong> with a love for
-        crafting modern, scalable, and user-friendly web applications.  
-        I specialize in <em>React, Node.js, and cloud solutions</em> — always
-        eager to learn and take on new challenges.
-      </p>
-
+  A passionate <strong>Frontend Developer</strong> 
+  visually appealing, responsive, and high-performance web applications.
+  I specialize in <em>React, JavaScript, and modern UI frameworks</em> —
+  constantly exploring new technologies to create seamless user experiences.
+</p>
       {/* Buttons */}
       <div className="hero-buttons">
         <a href="mailto:your-email@example.com" className="btn primary">
           <Mail size={20} /> Hire Me
         </a>
-        <a href="/resume.pdf" download className="btn secondary">
-          <Download size={20} /> Download Resume
+        <a href="https://www.dropbox.com/scl/fi/bwqgl7l4zktylfz4pc4vb/Rezume-3.pdf?rlkey=rk3ogugpqw8wnoobi1xgf5ziv&st=0xasvrc4&dl=0" download className="btn secondary">
+          <Eye size={20} /> View Resume
         </a>
       </div>
 
       {/* Social Media Links */}
       <div className="social-links">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/mdzabicode"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Github size={28} />
         </a>
         <a
-          href="https://www.linkedin.com/in/mohammed-zabi-khan-b21ab7228"
+          href="http://www.linkedin.com/in/mohammed-zabi-ullah-khan-b21ab7228"
           target="_blank"
           rel="noopener noreferrer"
         >

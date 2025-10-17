@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const projects = [
-  { id: 1, title: "Portfolio Website", desc: "Personal branding website." },
+  { id: 1, title: "Bestvalueuae.com", desc: "Consultancy Project",href:"https://www.bestvalueuae.com/" },
   { id: 2, title: "E-Commerce App", desc: "MERN stack full-featured store." },
   { id: 3, title: "SaaS Dashboard", desc: "Analytics dashboard with charts." },
 ];
@@ -15,7 +15,7 @@ export default function Projects() {
           <div key={p.id} className="card">
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
-            <a href="#">View Details →</a>
+            <a href={p.href}>View Details →</a>
           </div>
         ))}
       </div>
