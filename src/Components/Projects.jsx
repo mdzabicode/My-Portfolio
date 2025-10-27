@@ -1,10 +1,4 @@
-import React, { useState } from "react";
 
-const projects = [
-  { id: 1, title: "Bestvalueuae.com", desc: "Consultancy Project",href:"https://www.bestvalueuae.com/" },
-  { id: 2, title: "E-Commerce App", desc: "MERN stack full-featured store." },
-  { id: 3, title: "SaaS Dashboard", desc: "Analytics dashboard with charts." },
-];
 // src/components/Projects.jsx
 import React from "react";
 import projects from "../data/projects";

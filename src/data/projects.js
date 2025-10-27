@@ -4,7 +4,7 @@ const projects = [
     title: "Project One",
     description: "Short description of project one.",
     image: "/assets/proj1.png",    // put file in public/assets/
-    demo: "https://your-live-demo-1.example.com",
+    demo: "https://www.bestvalueuae.com/",
     repo: "https://github.com/yourusername/project-one",
     tags: ["React", "API"]
   },
