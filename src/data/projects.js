@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Project One",
     description: "Short description of project one.",
-    image: "/assets/proj1.png",    // put file in public/assets/
+    image: "C:\Users\Zabi\OneDrive\Pictures\Screenshots\Screenshot 2025-10-27 143939.png",    // put file in public/assets/
     demo: "https://www.bestvalueuae.com/",
     repo: "https://github.com/yourusername/project-one",
     tags: ["React", "API"]
@@ -11,7 +11,6 @@ const projects = [
   {
     id: 2,
     title: "Project Two",
-    description: "Short description of project two.",
     image: "/assets/proj2.png",
     demo: "https://your-live-demo-2.example.com",
     repo: "https://github.com/yourusername/project-two",
