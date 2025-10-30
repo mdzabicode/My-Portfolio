@@ -5,6 +5,8 @@ import Skills from "./Components/Skills.jsx";
 import Projects from "./Components/Projects.jsx";
 import Freelance from "./Components/Freelance.jsx";
 import Footer from "./Components/Footer.jsx";
+import Contact from "./Components/Contact.jsx";
+
 
 export default function App() {
   return (
@@ -17,4 +19,5 @@ export default function App() {
       <Footer />
     </div>
   );
+  
 }

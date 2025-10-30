@@ -2,17 +2,19 @@ import React from "react";
 import {
   FaReact,
   FaNodeJs,
+  FaPython,
   FaCss3Alt,
   FaAws,
   FaDocker,
   FaGitAlt,
+  
 } from "react-icons/fa";
 import { SiNextdotjs, SiMongodb } from "react-icons/si";
 
 const skills = [
   { name: "React", icon: <FaReact color="#61DBFB" /> },
   { name: "Node.js", icon: <FaNodeJs color="#3C873A" /> },
-  { name: "Next.js", icon: <SiNextdotjs color="#000" /> },
+  {"name": "Python", icon: <FaPython color= "#3776AB" />},
   { name: "CSS", icon: <FaCss3Alt color="#264de4" /> },
   { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
   { name: "AWS", icon: <FaAws color="#FF9900" /> },

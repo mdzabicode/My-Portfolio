@@ -4,7 +4,7 @@ export default function Navbar() {
   const [active, setActive] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const sections = ["home", "skills", "projects", "freelance"];
+  const sections = ["home", "skills", "projects", "freelance", "Contact"];
 
   return (
     <nav className="navbar">

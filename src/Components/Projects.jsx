@@ -9,15 +9,15 @@ const projects = [
   },
   { 
     id: 2, 
-    title: "E-Commerce App", 
-    desc: "MERN stack full-featured store.",
-    href: "https://your-ecommerce-demo-link.com"
+    title: "Intelligent Cloud Cost Optimization System (AWS, DevOps, AI/ML", 
+    desc: "Full Fledge Cloud Project",
+    href: "https://github.com/mdzabicode/Intelligent-Cloud-Cost-Optimization-System-AWS-DevOps-AI-ML"
   },
   { 
     id: 3, 
-    title: "SaaS Dashboard", 
-    desc: "Analytics dashboard with charts.",
-    href: "https://your-saas-dashboard-link.com"
+    title: "Migrating Cafe Web Application to Amazon RDS", 
+    desc: "Cloud Porject",
+    href: "https://github.com/mdzabicode/Migrating-Cafe-Web-Application-to-Amazon-RDS"
   },
 ];
 
