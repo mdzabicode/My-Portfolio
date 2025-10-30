@@ -7,20 +7,22 @@ import {
   FaAws,
   FaDocker,
   FaGitAlt,
-  
 } from "react-icons/fa";
-import { SiNextdotjs, SiMongodb } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 const skills = [
   { name: "React", icon: <FaReact color="#61DBFB" /> },
   { name: "Node.js", icon: <FaNodeJs color="#3C873A" /> },
-  {"name": "Python", icon: <FaPython color= "#3776AB" />},
+  { name: "Python", icon: <FaPython color="#3776AB" /> },
+  { name: "MySQL", icon: <SiMysql color="#00758F" /> },
   { name: "CSS", icon: <FaCss3Alt color="#264de4" /> },
-  { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
   { name: "AWS", icon: <FaAws color="#FF9900" /> },
   { name: "Docker", icon: <FaDocker color="#0db7ed" /> },
   { name: "Git", icon: <FaGitAlt color="#F1502F" /> },
 ];
+
+
+
 
 export default function Skills() {
   return (
