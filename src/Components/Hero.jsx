@@ -26,10 +26,10 @@ export default function Hero() {
 
       {/* Brief Summary */}
       <p className="summary">
-  A passionate <strong>Frontend Developer</strong> 
-  visually appealing, responsive, and high-performance web applications.
-  I specialize in <em>React, JavaScript, and modern UI frameworks</em> —
-  constantly exploring new technologies to create seamless user experiences.
+  A motivated <strong>AWS Cloud Practitioner</strong> with a foundational understanding of <em>AWS services, cloud computing, and deployment practices</em>.
+I am eager to begin my career in the cloud domain, focusing on building secure, scalable, and efficient solutions.
+Along with my cloud knowledge, I also possess basic <strong>frontend development</strong> skills in <em>HTML, CSS, JavaScript, and React</em>,
+ enabling me to contribute to both cloud and web-based projects.
 </p>
       {/* Buttons */}
       <div className="hero-buttons">
