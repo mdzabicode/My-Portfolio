@@ -35,7 +35,7 @@ export default function Hero() {
         <a href="mailto:your-email@example.com" className="btn primary">
           <Mail size={20} /> Hire Me
         </a>
-        <a href="https://www.dropbox.com/scl/fi/bwqgl7l4zktylfz4pc4vb/Rezume-3.pdf?rlkey=rk3ogugpqw8wnoobi1xgf5ziv&st=0xasvrc4&dl=0" download className="btn secondary">
+        <a href="https://www.dropbox.com/scl/fi/1qxusgp03i2v91l0rbmnx/Zabi.pdf?rlkey=wdpgurpz9gfmxu27768gb192w&st=mya1yrqa&dl=0https://www.dropbox.com/scl/fi/bwqgl7l4zktylfz4pc4vb/Rezume-3.pdf?rlkey=rk3ogugpqw8wnoobi1xgf5ziv&st=0xasvrc4&dl=0" download className="btn secondary">
           <Eye size={20} /> View Resume
         </a>
       </div>
