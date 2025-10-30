@@ -26,10 +26,9 @@ export default function Hero() {
 
       {/* Brief Summary */}
       <p className="summary">
-  A motivated <strong>AWS Cloud Practitioner</strong> with a foundational understanding of <em>AWS services, cloud computing, and deployment practices</em>.
-I am eager to begin my career in the cloud domain, focusing on building secure, scalable, and efficient solutions.
-Along with my cloud knowledge, I also possess basic <strong>frontend development</strong> skills in <em>HTML, CSS, JavaScript, and React</em>,
- enabling me to contribute to both cloud and web-based projects.
+  An <strong>AWS Cloud Practitioner </strong>with a foundational understanding of AWS services, cloud computing, and deployment practices. 
+  I have completed my graduation in Computer Science and am seeking an opportunity as a fresher to start my career in the cloud domain, focusing on building secure, scalable, and efficient solutions.
+  In addition to my cloud knowledge,I have basic frontend development skills in HTML, CSS, JavaScript, and React, enabling me to contribute effectively to both cloud and web-based projects.
 </p>
       {/* Buttons */}
       <div className="hero-buttons">
