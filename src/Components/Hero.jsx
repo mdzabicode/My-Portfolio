@@ -26,9 +26,11 @@ export default function Hero() {
 
       {/* Brief Summary */}
       <p className="summary">
-  An <strong>AWS Cloud Practitioner </strong>with a foundational understanding of AWS services, cloud computing, and deployment practices. 
-  I have completed my graduation in Computer Science and am seeking an opportunity as a fresher to start my career in the cloud domain, focusing on building secure, scalable, and efficient solutions.
-  In addition to my cloud knowledge,I have basic frontend development skills in HTML, CSS, JavaScript, and React, enabling me to contribute effectively to both cloud and web-based projects.
+    An <strong>An entry-level Junior Developer</strong> with a foundation in frontend development and a strong interest in building scalable and efficient applications.
+    I have completed my graduation in Computer Science and i am seeking an opportunity as a fresher to start my career in a junior developer role, where I can learn, 
+    contribute, and grow within a professional development team.
+    I possess basic frontend skills in HTML, CSS, JavaScript, and React, enabling me to assist in web-based projects. 
+    Additionally, I am learning AWS Cloud Practitioner fundamentals, gaining knowledge of cloud services, deployment concepts, and secure cloud practices.
 </p>
       {/* Buttons */}
       <div className="hero-buttons">
@@ -43,7 +45,7 @@ export default function Hero() {
       {/* Social Media Links */}
       <div className="social-links">
         <a
-          href="https://github.com/mdzabicode"
+          href="hhttps://github.com/mdzabicode"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -55,13 +57,6 @@ export default function Hero() {
           rel="noopener noreferrer"
         >
           <Linkedin size={28} />
-        </a>
-        <a
-          href="https://twitter.com/yourusername"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Twitter size={28} />
         </a>
       </div>
     </section>
