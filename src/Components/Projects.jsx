@@ -18,7 +18,7 @@ const projects = [
     title: "AWS Full Stack Resume Project.", 
     desc: "Developed a professional resume website hosted on AWS, utilizing various AWS services for robustness and security.",
     href: "https://github.com/mdzabicode/Resume-Ops---AWS-Static-Resume-View-Tracking.git"
-  };
+  }];
 
 export default function Projects() {
   return (
