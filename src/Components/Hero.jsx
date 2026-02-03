@@ -26,11 +26,13 @@ export default function Hero() {
 
       {/* Brief Summary */}
       <p className="summary">
-    An <strong>An entry-level Junior Developer</strong> with a foundation in frontend development and a strong interest in building scalable and efficient applications.
-    I have completed my graduation in Computer Science and i am seeking an opportunity as a fresher to start my career in a junior developer role, where I can learn, 
-    contribute, and grow within a professional development team.
-    I possess basic frontend skills in HTML, CSS, JavaScript, and React, enabling me to assist in web-based projects. 
-    Additionally, I am learning AWS Cloud Practitioner fundamentals, gaining knowledge of cloud services, deployment concepts, and secure cloud practices.
+    An entry-level cloud-focused student with a foundational understanding of AWS Cloud Practitioner concepts and a background in web development. 
+    I have completed my graduation in Computer Science and i am seeking a fresher opportunity to begin my career in a cloud-based role where I can 
+    learn, contribute, and grow within a professional environment.
+
+    I am gaining hands-on knowledge of AWS core services such as EC2, S3, IAM, and basic VPC concepts, along with cloud deployment fundamentals, 
+    security best practices, and cost optimization principles. In addition, I possess working knowledge of HTML, CSS, JavaScript, and React, allowing me
+    to support cloud-hosted web applications.
 </p>
       {/* Buttons */}
       <div className="hero-buttons">
