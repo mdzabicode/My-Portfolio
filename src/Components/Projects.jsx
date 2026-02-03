@@ -9,17 +9,16 @@ const projects = [
   },
   { 
     id: 2, 
-    title: "Intelligent Cloud Cost Optimization System (AWS, DevOps, AI/ML", 
-    desc: "Full Fledge Cloud Project",
-    href: "https://github.com/mdzabicode/Intelligent-Cloud-Cost-Optimization-System-AWS-DevOps-AI-ML"
+    title: "Serverless Dictionary API using AWS", 
+    desc: "A fully serverless, scalable, and cost-efficient dictionary lookup service built using AWS Lambda, API Gateway, DynamoDB, S3, and optionally CloudFront.",
+    href: "https://github.com/mdzabicode/Serverless-Dictionary-API.git"
   },
   { 
     id: 3, 
-    title: "Migrating Cafe Web Application to Amazon RDS", 
-    desc: "Cloud Porject",
-    href: "https://github.com/mdzabicode/Migrating-Cafe-Web-Application-to-Amazon-RDS"
-  },
-];
+    title: "AWS Full Stack Resume Project.", 
+    desc: "Developed a professional resume website hosted on AWS, utilizing various AWS services for robustness and security.",
+    href: "https://github.com/mdzabicode/Resume-Ops---AWS-Static-Resume-View-Tracking.git"
+  };
 
 export default function Projects() {
   return (
